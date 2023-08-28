@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link {
+    @apply border-b-[0.5px] pb-1 border-transparent hover:border-white;
+  }
+
+  .button {
+    @apply w-[50%] h-full flex items-center justify-center hover:bg-dark-gray cursor-pointer;
+  }
+}
+
+.active {
+  left: 0;
+}
